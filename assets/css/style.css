@@ -371,7 +371,7 @@ canvas {
 
 @media screen and (max-width: 992px) {
   .slider-container .action-buttons .down-button {
-    left: 30px;
+    left: 40px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 0;
