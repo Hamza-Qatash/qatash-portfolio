@@ -2,7 +2,7 @@
 <br />
 <div align="center">
     <a target="_blank" href="https://hamza-qatash.github.io/qatash-portfolio/">
-        <img src="./img/logo.svg" alt="Logo" width="180" height="80">
+        <img src="./assets/images/person.jpg" alt="Logo" width="180" height="180">
     </a>
   <h3 align="center">Qatash | Portfolio</h3>
 
