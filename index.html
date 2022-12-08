@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qatash | Web Developer</title>
+    <link
+      rel="icon"
+      href="./assets/images/developer-favicon.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <canvas id="c"></canvas>
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <span class="h3 fw-bold d-lg-none">Jon Carter</span>
+          <div class="img-effect rounded-circle d-none d-lg-block">
+            <img
+              width="150px"
+              height="150px"
+              src="./assets/images/person.jpg"
+              class="rounded-circle"
+              alt="person"
+            />
+            <div class="caption">
+              <div class="leftSide"></div>
+              <div class="rightSide"></div>
+              <span class="rightInfo">Qatash</span>
+              <span class="leftInfo">Hamza</span>
+            </div>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-center">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold text-white" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase fw-bold text-white"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold text-white" href="#work"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase fw-bold text-white"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase fw-bold text-white"
+                href="#reviews"
+                >Reviews</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold text-white" href="#blog"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase fw-bold text-white"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- //NAVBAR -->
+
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper" class="content-wrapper">
+      <!-- Double Vertical Slider -->
+      <section id="home">
+        <div class="container-lg">
+          <div class="row">
+            <div class="slider-container">
+              <div class="left-slide d-none d-lg-block">
+                <div style="background-color: #242d52">
+                  <h3 class="h4">Manage Landing Page</h3>
+                  <p>mobile version</p>
+                </div>
+                <div style="background-color: #223837">
+                  <h3>Homesmart</h3>
+                  <p>mobile version</p>
+                </div>
+                <div style="background-color: #eb4c53">
+                  <h3>In The Rain</h3>
+                  <p>mobile version</p>
+                </div>
+                <div style="background-color: #183341">
+                  <h3>MNTN TEMPLATE</h3>
+                  <p>mobile version</p>
+                </div>
+                <div style="background-color: #f25f3a">
+                  <h3 class="h4">Manage Landing Page</h3>
+                  <p>Full responsive</p>
+                </div>
+                <div style="background-color: #134e4a">
+                  <h3>Homesmart</h3>
+                  <p>Full responsive - light</p>
+                </div>
+                <div style="background-color: #f1a91b">
+                  <h3>Homesmart</h3>
+                  <p>Full responsive - dark</p>
+                </div>
+                <div style="background-color: #212428">
+                  <h3>In The Rain</h3>
+                  <p>Full responsive & animated</p>
+                </div>
+                <div style="background-color: #1f4e66">
+                  <h3>MNTN TEMPLATE</h3>
+                  <p>Full responsive & animated</p>
+                </div>
+              </div>
+              <div class="right-slide">
+                <div
+                  style="
+                    background-image: url('./assets/images/Qatash-MNTN-Template.png');
+                  "
+                ></div>
+                <div
+                  style="
+                    background-image: url('./assets/images/In-The-Rain.png');
+                  "
+                ></div>
+                <div
+                  style="
+                    background-image: url('./assets/images/Qatash-Homesmart-dark.png');
+                  "
+                ></div>
+                <div
+                  style="
+                    background-image: url('./assets/images/Qatash-Homesmart-light.png');
+                  "
+                ></div>
+                <div
+                  style="
+                    background-image: url('./assets/images/Qatash-Manage-Landing-Page.png');
+                  "
+                ></div>
+                <div
+                  style="
+                    background-image: url('./assets/images/Qatash-MNTN-Template-mobile.png');
+                  "
+                  class="mobile-version"
+                ></div>
+                <div
+                  style="
+                    background-image: url('./assets/images/In-The-Rain-mobile.png');
+                  "
+                  class="mobile-version"
+                ></div>
+                <div
+                  style="
+                    background-image: url('./assets/images/Qatash-Homesmart-mobile.png');
+                  "
+                  class="mobile-version"
+                ></div>
+                <div
+                  style="
+                    background-image: url('./assets/images/Qatash-Manage-Landing-Page-mobile.png');
+                  "
+                  class="mobile-version"
+                ></div>
+              </div>
+              <div class="action-buttons">
+                <button class="down-button shadow-sm">
+                  <i class="las la-chevron-down"></i>
+                </button>
+                <button class="up-button shadow-sm d-none d-lg-block">
+                  <i class="las la-chevron-up"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOME -->
+      <section class="full-height px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div>
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
+                I'M A <span class="text-brand">Front End developer</span> FROM
+                Zarqa, Jordan
+              </h1>
+              <p class="lead mt-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+                Front End developer with industry experience building websites
+                and web applications. I specialize in JavaScript and have
+                professional experience working with Vue Js. Skilled in CSS and
+                HTML.
+              </p>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //HOME -->
+
+      <!-- SERVICES -->
+      <section id="services" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div>
+              <h6 class="text-brand">SERVICES</h6>
+              <h2 class="h1 fw-bold">Services That I Provide</h2>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="p-4 bg-base h-100 rounded-4 hover-effect">
+                <div class="icon-box rounded-4">
+                  <i class="las la-code"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Web Application</h5>
+                <p>
+                  Producing, maintaining ,modifying and advanced solutions to
+                  design intuitive, rich, and high-performance apps.
+                </p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="p-4 bg-base h-100 rounded-4 hover-effect">
+                <div class="icon-box rounded-4">
+                  <i class="lab la-free-code-camp"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Single Page Apps Development</h5>
+                <p>
+                  provide single-page application development services to boost
+                  performance and enhance UX flexibility.
+                </p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="p-4 bg-base h-100 rounded-4 hover-effect">
+                <div class="icon-box rounded-4">
+                  <i class="las la-laptop-code"></i>
+                </div>
+                <h5 class="mt-4 mb-2">UI/UX App Development</h5>
+                <p>
+                  prove experience as a UI/UX app design and create cross-device
+                  customer-facing interfaces adapted for your business needs.
+                </p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SERVICES -->
+
+      <!-- WORK -->
+      <section id="work" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div>
+              <h6 class="text-brand">WORK</h6>
+              <h2 class="h1 fw-bold">My Recent Projects</h2>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-6 col-xl-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base h-100 hover-effect">
+                <div
+                  class="card-custom-image rounded-top"
+                  style="
+                    background-image: url('./assets/images/Qatash-MNTN-Template.png');
+                  "
+                ></div>
+                <div class="card-custom-content p-4">
+                  <h4>MNTN TEMPLATE</h4>
+                  <p>
+                    MNTN Template with pure (HTML, CSS, JS) Languages. full
+                    responsive with nice animations and hover effects.
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-xl-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="card-custom rounded-4 bg-base h-100 hover-effect">
+                <div
+                  class="card-custom-image rounded-top"
+                  style="
+                    background-image: url('./assets/images/In-The-Rain.png');
+                  "
+                ></div>
+                <div class="card-custom-content p-4">
+                  <h4>In The Rain Template</h4>
+                  <p>
+                    In The Rain Template - build using Bootstrap v4. full
+                    responsive page with nice animations and hover effects.
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-xl-4"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="card-custom rounded-4 bg-base h-100 hover-effect">
+                <div
+                  class="card-custom-image rounded-top"
+                  style="
+                    background-image: url('./assets/images/Qatash-Homesmart-dark.png');
+                  "
+                ></div>
+                <div class="card-custom-content p-4">
+                  <h4>Homesmart</h4>
+                  <p>
+                    Homesmart - set up using ViteJS and PostCSS. Full responsive
+                    page with nice hover effects, dark and light mode.
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base h-100 hover-effect">
+                <div
+                  class="card-custom-image rounded-top"
+                  style="
+                    background-image: url('./assets/images/Qatash-Manage-Landing-Page.png');
+                  "
+                ></div>
+                <div class="card-custom-content p-4">
+                  <h4>Manage Landing Page</h4>
+                  <p>
+                    Qatash | Manage Landing Page - set up using Tailwind CLI
+                    Written codes with HTML TailwindCSS JS Languages.
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-xl-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="card-custom rounded-4 bg-base h-100 hover-effect">
+                <div
+                  class="card-custom-image rounded-top"
+                  style="
+                    background-image: url('./assets/images/Qatash-Homesmart-light.png');
+                  "
+                ></div>
+                <div class="card-custom-content p-4">
+                  <h4>Homesmart</h4>
+                  <p>
+                    Homesmart - set up using ViteJS and PostCSS. Full responsive
+                    page with nice hover effects, dark and light mode.
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-xl-4"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="card-custom rounded-4 bg-base h-100 hover-effect">
+                <div
+                  class="card-custom-image rounded-top"
+                  style="
+                    background-image: url('./assets/images/In-The-Rain-mobile.png');
+                  "
+                ></div>
+                <div class="card-custom-content p-4">
+                  <h4>In The Rain Template</h4>
+                  <p>
+                    In The Rain Template - build using Bootstrap v4. full
+                    responsive page with nice animations and hover effects.
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //WORK -->
+
+      <!-- ABOUT -->
+      <section id="about" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div>
+              <h6 class="text-brand">ABOUT</h6>
+              <h2 class="h1 fw-bold">My Education & Experiance</h2>
+            </div>
+          </div>
+
+          <div class="row gy-5">
+            <div class="col-lg-6">
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                Education
+              </h3>
+              <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 hover-effect">
+                    <h4>Master of Software Engineering</h4>
+                    <p class="text-brand mb-2">
+                      The University of Jordan (2012 - 2020)
+                    </p>
+                    <p class="mb-0">
+                      All we are more and design lorem ipsum dolor creativity
+                      sit amet consectetur adipisicing elit
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 hover-effect">
+                    <h4>Master of Software Engineering</h4>
+                    <p class="text-brand mb-2">
+                      hh... Mars University Venston Bay (2015 - 2020)
+                    </p>
+                    <p class="mb-0">
+                      All we are more and design lorem ipsum dolor creativity
+                      sit amet consectetur adipisicing elit
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 hover-effect">
+                    <h4>Master of Software Engineering</h4>
+                    <p class="text-brand mb-2">
+                      hh... Mars University Venston Bay (2015 - 2020)
+                    </p>
+                    <p class="mb-0">
+                      All we are more and design lorem ipsum dolor creativity
+                      sit amet consectetur adipisicing elit
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                Experiance
+              </h3>
+              <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 hover-effect">
+                    <h4>web developer</h4>
+                    <p class="text-brand mb-2">lorem (2017 - 2019)</p>
+                    <p class="mb-0">
+                      All we are more and design lorem ipsum dolor creativity
+                      sit amet consectetur adipisicing elit
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 hover-effect">
+                    <h4>Front-end engineer</h4>
+                    <p class="text-brand mb-2">lorem (2019 - 2020)</p>
+                    <p class="mb-0">
+                      All we are more and design lorem ipsum dolor creativity
+                      sit amet consectetur adipisicing elit
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 hover-effect">
+                    <h4>web developer</h4>
+                    <p class="text-brand mb-2">lorem (2020 - 2022)</p>
+                    <p class="mb-0">
+                      All we are more and design lorem ipsum dolor creativity
+                      sit amet consectetur adipisicing elit
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //ABOUT -->
+
+      <!-- REVIEWS -->
+      <section id="reviews" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div>
+              <h6 class="text-brand">REVIEWS</h6>
+              <h2 class="h1 fw-bold">What our subscribers say</h2>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="hover-effect bg-base p-4 rounded-4">
+                <div class="text-brand h5">
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                </div>
+                <p class="my-3">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel
+                  quae facilis fugiat molestias ab illum excepturi, qui optio
+                  modi asperiores, delectus maiores!
+                </p>
+                <div class="person">
+                  <h5 class="mb-0">Jon Doe</h5>
+                  <p class="mb-0">Twitter</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="hover-effect bg-base p-4 rounded-4">
+                <div class="text-brand h5">
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                </div>
+                <p class="my-3">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel
+                  quae facilis fugiat molestias ab illum excepturi, qui optio
+                  modi asperiores, delectus maiores!
+                </p>
+                <div class="person">
+                  <h5 class="mb-0">Jon Doe</h5>
+                  <p class="mb-0">Twitter</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="hover-effect bg-base p-4 rounded-4">
+                <div class="text-brand h5">
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                </div>
+                <p class="my-3">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel
+                  quae facilis fugiat molestias ab illum excepturi, qui optio
+                  modi asperiores, delectus maiores!
+                </p>
+                <div class="person">
+                  <h5 class="mb-0">Jon Doe</h5>
+                  <p class="mb-0">Twitter</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //REVIEWS -->
+
+      <!-- BLOG -->
+      <section id="blog" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <h6 class="text-brand">BLOG</h6>
+            <h2 class="h1 fw-bold">My BLog Posts</h2>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base hover-effect">
+                <div class="card-custom-image rounded-top">
+                  <img
+                    class="rounded-top"
+                    src="./assets/images/blog-post-1.jpg"
+                    alt="blog post"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">20 Dec, 2022</p>
+                  <h5 class="mb-4">
+                    Design a creative landing page using Bootstrap 5
+                  </h5>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base hover-effect">
+                <div class="card-custom-image rounded-top">
+                  <img
+                    class="rounded-top"
+                    src="./assets/images/blog-post-2.jpg"
+                    alt="blog post"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">20 Dec, 2022</p>
+                  <h5 class="mb-4">
+                    Design a creative landing page using Bootstrap 5
+                  </h5>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="card-custom rounded-4 bg-base hover-effect">
+                <div class="card-custom-image rounded-top">
+                  <img
+                    class="rounded-top"
+                    src="./assets/images/blog-post-3.jpg"
+                    alt="blog post"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">20 Dec, 2022</p>
+                  <h5 class="mb-4">
+                    Design a creative landing page using Bootstrap 5
+                  </h5>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //BLOG -->
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact full-height px-lg-5">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8 pb-4" data-aos="fade-up">
+              <h6 class="text-brand">CONTACT</h6>
+              <h2 class="h1 fw-bold">
+                Interested in working together? Let's talk
+              </h2>
+            </div>
+
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+              <form action="#" class="row g-3">
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="form-group col-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter subject"
+                  />
+                </div>
+                <div class="form-group col-12">
+                  <textarea
+                    name=""
+                    rows="4"
+                    class="form-control"
+                    placeholder="Enter your message"
+                  ></textarea>
+                </div>
+                <div class="form-group col-12">
+                  <button type="submit" class="btn btn-brand w-100">
+                    Contact me
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //CONTACT -->
+
+      <!-- FOOTER -->
+      <footer class="py-5 px-lg-5">
+        <div class="container">
+          <div class="row gy-4 justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">
+                Developed by <a href="#" class="fw-bold">Qatash</a>
+              </p>
+            </div>
+            <div class="col-auto">
+              <div class="social-icons">
+                <a href="#"><i class="lab la-codepen"></i></a>
+                <a href="#"><i class="lab la-github"></i></a>
+                <a href="#"><i class="lab la-facebook"></i></a>
+                <a href="#"><i class="lab la-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- //FOOTER -->
+    </div>
+    <!-- //CONTENT WRAPPER -->
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
