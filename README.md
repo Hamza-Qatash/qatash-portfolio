@@ -27,7 +27,7 @@ Full responsive page with nice hover effects.
 ## 🔗 Key Links 🔗
 
 - Live Code: https://hamza-qatash.github.io/qatash-portfolio/
-- Bootstrap: https://getbootstrap.com/manage-landing-page-SLXqC6P5
+- Bootstrap: https://getbootstrap.com/
 <!-- CONTACT -->
 
 ## Contact
