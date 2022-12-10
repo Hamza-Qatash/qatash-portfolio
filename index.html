@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hamza Qatash Portfolio">
     <title>Qatash | Web Developer</title>
     <link
       rel="icon"
-      href="./assets/images/developer-favicon.png"
+      href="./assets/images/developer-favicon.avif"
       type="image/png"
     />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
@@ -22,15 +23,18 @@
   <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <canvas class="d-none d-lg-block" id="c"></canvas>
       <div class="container flex-lg-column">
-        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-          <span class="h3 fw-bold d-lg-none">Jon Carter</span>
+        <a
+          class="navbar-brand mx-lg-auto mb-lg-4"
+          aria-label="Go to home page"
+          href="#"
+        >
+          <span class="h3 fw-bold d-lg-none">Hamza Qatash</span>
           <div class="img-effect rounded-circle d-none d-lg-block">
             <img
-              width="150px"
-              height="150px"
-              src="./assets/images/person.jpg"
+              width="150"
+              height="150"
+              src="./assets/images/person.avif"
               class="rounded-circle"
               alt="person"
             />
@@ -56,25 +60,33 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto flex-lg-column text-center">
             <li class="nav-item">
-              <a class="nav-link text-uppercase fw-bold text-white" href="#home"
+              <a
+                class="nav-link text-uppercase fw-bold text-white"
+                aria-label="Go to home page"
+                href="#home"
                 >Home</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link text-uppercase fw-bold text-white"
+                aria-label="Go to services page"
                 href="#services"
                 >Services</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase fw-bold text-white" href="#work"
+              <a
+                class="nav-link text-uppercase fw-bold text-white"
+                aria-label="Go to work page"
+                href="#work"
                 >Work</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link text-uppercase fw-bold text-white"
+                aria-label="Go to about page"
                 href="#about"
                 >About</a
               >
@@ -82,18 +94,23 @@
             <li class="nav-item">
               <a
                 class="nav-link text-uppercase fw-bold text-white"
+                aria-label="Go to reviews page"
                 href="#reviews"
                 >Reviews</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase fw-bold text-white" href="#blog"
+              <a
+                class="nav-link text-uppercase fw-bold text-white"
+                aria-label="Go to blog page"
+                href="#blog"
                 >Blog</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link text-uppercase fw-bold text-white"
+                aria-label="Go to contact page"
                 href="#contact"
                 >Contact</a
               >
@@ -152,59 +169,62 @@
               <div class="right-slide">
                 <div
                   style="
-                    background-image: url('./assets/images/Qatash-MNTN-Template.png');
+                    background-image: url('./assets/images/Qatash-MNTN-Template.avif');
                   "
                 ></div>
                 <div
                   style="
-                    background-image: url('./assets/images/In-The-Rain.png');
+                    background-image: url('./assets/images/In-The-Rain.avif');
                   "
                 ></div>
                 <div
                   style="
-                    background-image: url('./assets/images/Qatash-Homesmart-dark.png');
+                    background-image: url('./assets/images/Qatash-Homesmart-dark.avif');
                   "
                 ></div>
                 <div
                   style="
-                    background-image: url('./assets/images/Qatash-Homesmart-light.png');
+                    background-image: url('./assets/images/Qatash-Homesmart-light.avif');
                   "
                 ></div>
                 <div
                   style="
-                    background-image: url('./assets/images/Qatash-Manage-Landing-Page.png');
+                    background-image: url('./assets/images/Qatash-Manage-Landing-Page.avif');
                   "
                 ></div>
                 <div
                   style="
-                    background-image: url('./assets/images/Qatash-MNTN-Template-mobile.png');
-                  "
-                  class="mobile-version"
-                ></div>
-                <div
-                  style="
-                    background-image: url('./assets/images/In-The-Rain-mobile.png');
+                    background-image: url('./assets/images/Qatash-MNTN-Template-mobile.avif');
                   "
                   class="mobile-version"
                 ></div>
                 <div
                   style="
-                    background-image: url('./assets/images/Qatash-Homesmart-mobile.png');
+                    background-image: url('./assets/images/In-The-Rain-mobile.avif');
                   "
                   class="mobile-version"
                 ></div>
                 <div
                   style="
-                    background-image: url('./assets/images/Qatash-Manage-Landing-Page-mobile.png');
+                    background-image: url('./assets/images/Qatash-Homesmart-mobile.avif');
+                  "
+                  class="mobile-version"
+                ></div>
+                <div
+                  style="
+                    background-image: url('./assets/images/Qatash-Manage-Landing-Page-mobile.avif');
                   "
                   class="mobile-version"
                 ></div>
               </div>
               <div class="action-buttons">
-                <button class="down-button shadow-sm">
+                <button aria-label="slide down" class="down-button shadow-sm">
                   <i class="las la-chevron-down"></i>
                 </button>
-                <button class="up-button shadow-sm d-none d-lg-block">
+                <button
+                  aria-label="slide up"
+                  class="up-button shadow-sm d-none d-lg-block"
+                >
                   <i class="las la-chevron-up"></i>
                 </button>
               </div>
@@ -232,7 +252,12 @@
                   and HTML.
                 </p>
                 <div data-aos="fade-up" data-aos-delay="600">
-                  <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
+                  <a
+                    href="#work"
+                    aria-label="Go to work page"
+                    class="btn btn-brand me-3"
+                    >Explore My Work</a
+                  >
                 </div>
               </div>
             </div>
@@ -246,7 +271,7 @@
         <div class="container">
           <div class="row pb-4" data-aos="fade-up">
             <div>
-              <h6 class="text-brand">SERVICES</h6>
+              <span class="h5 fw-bold text-brand">SERVICES</span>
               <h2 class="h1 fw-bold">Services That I Provide</h2>
             </div>
           </div>
@@ -262,7 +287,9 @@
                   Producing, maintaining ,modifying and advanced solutions to
                   design intuitive, rich, and high-performance apps.
                 </p>
-                <a href="#" class="link-custom">Read More</a>
+                <a href="#" aria-label="Go to home page" class="link-custom"
+                  >Read More</a
+                >
               </div>
             </div>
 
@@ -276,7 +303,9 @@
                   provide single-page application development services to boost
                   performance and enhance UX flexibility.
                 </p>
-                <a href="#" class="link-custom">Read More</a>
+                <a href="#" aria-label="Go to home page" class="link-custom"
+                  >Read More</a
+                >
               </div>
             </div>
 
@@ -290,7 +319,9 @@
                   prove experience as a UI/UX app design and create cross-device
                   customer-facing interfaces adapted for your business needs.
                 </p>
-                <a href="#" class="link-custom">Read More</a>
+                <a href="#" aria-label="Go to home page" class="link-custom"
+                  >Read More</a
+                >
               </div>
             </div>
           </div>
@@ -303,7 +334,7 @@
         <div class="container">
           <div class="row pb-4" data-aos="fade-up">
             <div>
-              <h6 class="text-brand">WORK</h6>
+              <span class="h5 fw-bold text-brand">WORK</span>
               <h2 class="h1 fw-bold">My Recent Projects</h2>
             </div>
           </div>
@@ -314,7 +345,7 @@
                 <div
                   class="card-custom-image rounded-top"
                   style="
-                    background-image: url('./assets/images/Qatash-MNTN-Template.png');
+                    background-image: url('./assets/images/Qatash-MNTN-Template.avif');
                   "
                 ></div>
                 <div class="card-custom-content p-4">
@@ -323,7 +354,9 @@
                     MNTN Template with pure (HTML, CSS, JS) Languages. full
                     responsive with nice animations and hover effects.
                   </p>
-                  <a href="#" class="link-custom">Read More</a>
+                  <a href="#" aria-label="Go to home page" class="link-custom"
+                    >Read More</a
+                  >
                 </div>
               </div>
             </div>
@@ -337,7 +370,7 @@
                 <div
                   class="card-custom-image rounded-top"
                   style="
-                    background-image: url('./assets/images/In-The-Rain.png');
+                    background-image: url('./assets/images/In-The-Rain.avif');
                   "
                 ></div>
                 <div class="card-custom-content p-4">
@@ -346,7 +379,9 @@
                     In The Rain Template - build using Bootstrap v4. full
                     responsive page with nice animations and hover effects.
                   </p>
-                  <a href="#" class="link-custom">Read More</a>
+                  <a href="#" aria-label="Go to home page" class="link-custom"
+                    >Read More</a
+                  >
                 </div>
               </div>
             </div>
@@ -360,7 +395,7 @@
                 <div
                   class="card-custom-image rounded-top"
                   style="
-                    background-image: url('./assets/images/Qatash-Homesmart-dark.png');
+                    background-image: url('./assets/images/Qatash-Homesmart-dark.avif');
                   "
                 ></div>
                 <div class="card-custom-content p-4">
@@ -369,7 +404,9 @@
                     Homesmart - set up using ViteJS and PostCSS. Full responsive
                     page with nice hover effects, dark and light mode.
                   </p>
-                  <a href="#" class="link-custom">Read More</a>
+                  <a href="#" aria-label="Go to home page" class="link-custom"
+                    >Read More</a
+                  >
                 </div>
               </div>
             </div>
@@ -379,7 +416,7 @@
                 <div
                   class="card-custom-image rounded-top"
                   style="
-                    background-image: url('./assets/images/Qatash-Manage-Landing-Page.png');
+                    background-image: url('./assets/images/Qatash-Manage-Landing-Page.avif');
                   "
                 ></div>
                 <div class="card-custom-content p-4">
@@ -388,7 +425,9 @@
                     Qatash | Manage Landing Page - set up using Tailwind CLI
                     Written codes with HTML TailwindCSS JS Languages.
                   </p>
-                  <a href="#" class="link-custom">Read More</a>
+                  <a href="#" aria-label="Go to home page" class="link-custom"
+                    >Read More</a
+                  >
                 </div>
               </div>
             </div>
@@ -401,7 +440,7 @@
                 <div
                   class="card-custom-image rounded-top"
                   style="
-                    background-image: url('./assets/images/Qatash-Homesmart-light.png');
+                    background-image: url('./assets/images/Qatash-Homesmart-light.avif');
                   "
                 ></div>
                 <div class="card-custom-content p-4">
@@ -410,7 +449,9 @@
                     Homesmart - set up using ViteJS and PostCSS. Full responsive
                     page with nice hover effects, dark and light mode.
                   </p>
-                  <a href="#" class="link-custom">Read More</a>
+                  <a href="#" aria-label="Go to home page" class="link-custom"
+                    >Read More</a
+                  >
                 </div>
               </div>
             </div>
@@ -424,7 +465,7 @@
                 <div
                   class="card-custom-image rounded-top"
                   style="
-                    background-image: url('./assets/images/In-The-Rain-mobile.png');
+                    background-image: url('./assets/images/In-The-Rain-mobile.avif');
                   "
                 ></div>
                 <div class="card-custom-content p-4">
@@ -433,7 +474,9 @@
                     In The Rain Template - build using Bootstrap v4. full
                     responsive page with nice animations and hover effects.
                   </p>
-                  <a href="#" class="link-custom">Read More</a>
+                  <a href="#" aria-label="Go to home page" class="link-custom"
+                    >Read More</a
+                  >
                 </div>
               </div>
             </div>
@@ -447,7 +490,7 @@
         <div class="container">
           <div class="row pb-4" data-aos="fade-up">
             <div>
-              <h6 class="text-brand">ABOUT</h6>
+              <span class="h5 fw-bold text-brand">ABOUT</span>
               <h2 class="h1 fw-bold">My Education & Experiance</h2>
             </div>
           </div>
@@ -548,7 +591,7 @@
         <div class="container">
           <div class="row pb-4" data-aos="fade-up">
             <div>
-              <h6 class="text-brand">REVIEWS</h6>
+              <span class="h5 fw-bold text-brand">REVIEWS</span>
               <h2 class="h1 fw-bold">What our subscribers say</h2>
             </div>
           </div>
@@ -625,7 +668,7 @@
       <section id="blog" class="full-height px-lg-5">
         <div class="container">
           <div class="row pb-4" data-aos="fade-up">
-            <h6 class="text-brand">BLOG</h6>
+            <span class="h5 fw-bold text-brand">BLOG</span>
             <h2 class="h1 fw-bold">My BLog Posts</h2>
           </div>
 
@@ -635,7 +678,9 @@
                 <div class="card-custom-image rounded-top">
                   <img
                     class="rounded-top"
-                    src="./assets/images/blog-post-1.jpg"
+                    width="400"
+                    height="225"
+                    src="./assets/images/blog-post-1.avif"
                     alt="blog post"
                   />
                 </div>
@@ -644,7 +689,9 @@
                   <h5 class="mb-4">
                     Design a creative landing page using Bootstrap 5
                   </h5>
-                  <a href="#" class="link-custom">Read More</a>
+                  <a href="#" aria-label="Go to home page" class="link-custom"
+                    >Read More</a
+                  >
                 </div>
               </div>
             </div>
@@ -654,7 +701,9 @@
                 <div class="card-custom-image rounded-top">
                   <img
                     class="rounded-top"
-                    src="./assets/images/blog-post-2.jpg"
+                    width="400"
+                    height="225"
+                    src="./assets/images/blog-post-2.avif"
                     alt="blog post"
                   />
                 </div>
@@ -663,7 +712,9 @@
                   <h5 class="mb-4">
                     Design a creative landing page using Bootstrap 5
                   </h5>
-                  <a href="#" class="link-custom">Read More</a>
+                  <a href="#" aria-label="Go to home page" class="link-custom"
+                    >Read More</a
+                  >
                 </div>
               </div>
             </div>
@@ -673,7 +724,9 @@
                 <div class="card-custom-image rounded-top">
                   <img
                     class="rounded-top"
-                    src="./assets/images/blog-post-3.jpg"
+                    width="400"
+                    height="225"
+                    src="./assets/images/blog-post-3.avif"
                     alt="blog post"
                   />
                 </div>
@@ -682,7 +735,9 @@
                   <h5 class="mb-4">
                     Design a creative landing page using Bootstrap 5
                   </h5>
-                  <a href="#" class="link-custom">Read More</a>
+                  <a href="#" aria-label="Go to home page" class="link-custom"
+                    >Read More</a
+                  >
                 </div>
               </div>
             </div>
@@ -696,7 +751,7 @@
         <div class="container">
           <div class="row justify-content-center text-center">
             <div class="col-lg-8 pb-4" data-aos="fade-up">
-              <h6 class="text-brand">CONTACT</h6>
+              <span class="h5 fw-bold text-brand">CONTACT</sp>
               <h2 class="h1 fw-bold">
                 Interested in working together? Let's talk
               </h2>
@@ -734,7 +789,11 @@
                   ></textarea>
                 </div>
                 <div class="form-group col-12">
-                  <button type="submit" class="btn btn-brand w-100">
+                  <button
+                    aria-label="submit"
+                    type="submit"
+                    class="btn btn-brand w-100"
+                  >
                     Contact me
                   </button>
                 </div>
@@ -751,15 +810,26 @@
           <div class="row gy-4 justify-content-between">
             <div class="col-auto">
               <p class="mb-0">
-                Developed by <a href="#" class="fw-bold">Qatash</a>
+                Developed by
+                <a href="#" aria-label="Go to home page" class="fw-bold"
+                  >Qatash</a
+                >
               </p>
             </div>
             <div class="col-auto">
               <div class="social-icons">
-                <a href="#"><i class="lab la-codepen"></i></a>
-                <a href="#"><i class="lab la-github"></i></a>
-                <a href="#"><i class="lab la-facebook"></i></a>
-                <a href="#"><i class="lab la-twitter"></i></a>
+                <a aria-label="Go to home page" href="#"
+                  ><i class="lab la-codepen"></i
+                ></a>
+                <a aria-label="Go to home page" href="#"
+                  ><i class="lab la-github"></i
+                ></a>
+                <a aria-label="Go to home page" href="#"
+                  ><i class="lab la-facebook"></i
+                ></a>
+                <a aria-label="Go to home page" href="#"
+                  ><i class="lab la-twitter"></i
+                ></a>
               </div>
             </div>
           </div>

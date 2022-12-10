@@ -201,7 +201,7 @@ canvas {
     min-height: 100vh;
     width: var(--sidebar-width);
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(36, 58, 84, 0.8)),
-      url("../images/sidebar-img.jpeg");
+      url("../images/sidebar-img.avif");
     background-size: cover;
     background-position: 90% 50%;
   }
