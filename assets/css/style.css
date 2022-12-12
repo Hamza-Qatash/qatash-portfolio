@@ -178,11 +178,6 @@ img {
 }
 
 /* NAVBAR */
-canvas {
-  z-index: -100;
-  opacity: 0.2;
-  position: absolute;
-}
 .navbar {
   background: linear-gradient(to right, #141e30, #243b55);
   box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.1);
@@ -208,7 +203,6 @@ canvas {
 
   .navbar-brand img {
     background-position: 50% 50%;
-    /* width: 150px !important; */
     padding: 3px;
     border: 3px solid var(--color--secondary);
   }
@@ -276,7 +270,8 @@ canvas {
   height: 100%;
   width: 35%;
   position: absolute;
-  top: 0;
+  /* note - instead of doing it from js */
+  top: -200vh;
   left: 0;
   transition: transform 0.5s ease-in-out;
 }
