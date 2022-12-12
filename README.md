@@ -23,6 +23,7 @@
 Qatash |Portfolio - set up using Bootstrap v5.2
 <br />
 Full responsive page with nice hover effects.
+<img src="./assets/images/portfoliot.png" alt="portfolio" width="700" height="100%">
 
 ## 🔗 Key Links 🔗
 
