@@ -208,7 +208,7 @@ canvas {
 
   .navbar-brand img {
     background-position: 50% 50%;
-    width: 150px !important;
+    /* width: 150px !important; */
     padding: 3px;
     border: 3px solid var(--color--secondary);
   }
@@ -323,10 +323,6 @@ canvas {
   height: 100%;
   width: 100%;
   transition: background-position 4s ease-in-out;
-}
-
-.slider-container div.mobile-version {
-  transition: background-position 8s ease-in-out;
 }
 
 .slider-container .right-slide > div:hover {
